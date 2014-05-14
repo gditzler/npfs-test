@@ -12,7 +12,7 @@ n_features = 25;
 n_relevent = 5;
 n_bootstraps = 100;
 alpha =0.01;
-n_select = 24;
+n_select = 10; % change to 10, 15, 24 (or whatever)
 method = 'mim';
 
 % deal with parallel computing 
@@ -34,4 +34,5 @@ xlabel('bootstraps', 'FontSize', 22)
 ylabel('feature', 'FontSize', 22)
 set(gca, 'fontsize', 22);
 save('results.mat')
-saveas('')
+saveas(h, 'result.fig')
+saveas(h, 'result.png')
