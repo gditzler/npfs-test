@@ -6,3 +6,6 @@ Simple test for NPFS on a synthetic data set. A couple of notes.
 * Depending in your computer and Matlab configuration, you may need to remove the parallel computing stuff. 
 * I have saved the output from when I ran this on my computer (Mac OS X 10.9.2 running Matlab R2014a). 
 
+# my output 
+![alt tag](https://raw.github.com/gditzler/npfs-test/master/result.png)
+
